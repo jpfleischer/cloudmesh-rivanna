@@ -60,6 +60,11 @@ class Rivanna:
               gres: "gpu:a100:1"
               partition: "gpu"
               account: "bii_dsc_community"
+            a100-80gb:
+              gres: "gpu:a100:1"
+              partition: "gpu"
+              account: "bii_dsc_community"
+              constraint: "a100_80gb"
             a100-dgx:
               gres: "gpu:a100:1"
               reservation: "bi_fox_dgx"
